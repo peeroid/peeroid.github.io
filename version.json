@@ -1,8 +1,8 @@
 {
-  "version": "0.1.0",
-  "commitHash": "af13f6d",
-  "buildDate": "2026-02-02T19:19:19.487Z",
-  "buildTimestamp": 1770059959,
-  "fullVersion": "0.1.0-af13f6d",
-  "fullVersionWithBuild": "0.1.0-af13f6d-1770059959"
+  "version": "0.1.1",
+  "commitHash": "3a22fc1",
+  "buildDate": "2026-02-03T01:12:48.390Z",
+  "buildTimestamp": 1770081168,
+  "fullVersion": "0.1.1-3a22fc1",
+  "fullVersionWithBuild": "0.1.1-3a22fc1-1770081168"
 }
