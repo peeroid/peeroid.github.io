@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy</title>
+    <title>Privacy Policy - Peeroid Network</title>
     <style>
         * {
             margin: 0;
@@ -24,6 +24,7 @@
             padding: 40px 20px;
             background-color: #fff;
             min-height: 100vh;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
         }
         
         header {
@@ -51,7 +52,7 @@
         }
         
         section {
-            margin-bottom: 30px;
+            margin-bottom: 35px;
         }
         
         section h2 {
@@ -85,7 +86,7 @@
         
         .highlight-box {
             background-color: #f8f9fa;
-            border-left: 4px solid #007bff;
+            border-left: 4px solid #4285F4;
             padding: 20px;
             margin: 20px 0;
             border-radius: 0 4px 4px 0;
@@ -93,34 +94,20 @@
         
         .highlight-box p {
             margin: 0;
-            font-style: italic;
-            color: #555;
+            color: #444;
         }
-        
-        .data-types {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
-            margin: 20px 0;
-        }
-        
-        .data-type-item {
-            background-color: #f8f9fa;
-            padding: 15px;
+
+        .google-data-section {
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
             border-radius: 8px;
-            border: 1px solid #e9ecef;
+            padding: 20px;
+            margin-top: 20px;
         }
-        
-        .data-type-item h4 {
-            color: #007bff;
-            margin-bottom: 8px;
-            font-size: 1rem;
-        }
-        
-        .data-type-item p {
-            margin: 0;
-            font-size: 0.9rem;
-            color: #666;
+
+        .google-data-section h4 {
+            color: #4285F4;
+            margin-bottom: 10px;
         }
         
         footer {
@@ -136,7 +123,7 @@
         }
         
         footer a {
-            color: #007bff;
+            color: #4285F4;
             text-decoration: none;
         }
         
@@ -152,10 +139,6 @@
             header h1 {
                 font-size: 2rem;
             }
-            
-            .data-types {
-                grid-template-columns: 1fr;
-            }
         }
     </style>
 </head>
@@ -163,135 +146,83 @@
     <div class="container">
         <header>
             <h1>Privacy Policy</h1>
-            <p>Your Privacy Matters to Us</p>
-            <p class="last-updated">Last Updated: February 11, 2026</p>
+            <p><strong>Peeroid Network</strong> Application</p>
+            <p class="last-updated">Last Updated: February 13, 2026</p>
         </header>
 
         <section>
             <h2>1. Introduction</h2>
-            <p>Welcome to our Privacy Policy. This document explains how we collect, use, disclose, and safeguard your information when you use our peer-to-peer (P2P) application. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the application.</p>
+            <p>Welcome to the Privacy Policy for <strong>Peeroid</strong> ("we", "our", or "the Application"). This document explains how we collect, use, and protect your information when you use our peer-to-peer (P2P) networking services. We are committed to protecting your privacy and ensuring you have a clear understanding of our data practices.</p>
+        </section>
+
+        <section>
+            <h2>2. Google User Data</h2>
+            <p>Our application, <strong>Peeroid</strong>, allows you to link your Google Account to enhance your experience with AI features and account personalization. When you choose to link your Google Account, we access specific information from Google.</p>
             
+            <div class="google-data-section">
+                <h4>What Google data do we collect?</h4>
+                <ul>
+                    <li><strong>Basic Profile Information:</strong> Including your name, email address, and profile picture.</li>
+                    <li><strong>Gemini API Capabilities:</strong> Access to your Generative Language API quota and retrieval services to power AI-driven features within the application.</li>
+                </ul>
+
+                <h4>How do we use your Google data?</h4>
+                <ul>
+                    <li><strong>Authentication:</strong> To securely identify you and manage your linked account state.</li>
+                    <li><strong>Personalization:</strong> To display your name and profile picture within your local application instance.</li>
+                    <li><strong>AI Services (Gemini):</strong> To provide AI-powered features such as automated content generation, summarization, and retrieval-augmented generation (RAG) directly through your Google API quota.</li>
+                </ul>
+                
+                <p><strong>Peeroid</strong> does not store your Google password and does not sell any data retrieved from Google APIs to third parties.</p>
+            </div>
+
             <div class="highlight-box">
-                <p><strong>Key Point:</strong> Our P2P application is designed with privacy in mind. Most data stays on your device, and we minimize data collection to what is necessary for the application to function.</p>
+                <p><strong>Google API Limited Use Disclosure:</strong><br>
+                Peeroid's use and transfer to any other app of information received from Google APIs will adhere to <a href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes" target="_blank">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
             </div>
         </section>
 
         <section>
-            <h2>2. Information We Collect</h2>
-            <p>We collect information that you provide directly to us and information collected automatically when you use our application.</p>
-            
-            <h3>2.1 Information You Provide</h3>
+            <h2>3. Information Collected Automatically</h2>
+            <p>As a P2P application, Peeroid operates primarily by establishing direct connections between devices. We collect minimal information automatically to facilitate these connections:</p>
             <ul>
-                <li><strong>Account Information:</strong> If you create an account, we may collect your name, email address, and other contact information.</li>
-                <li><strong>User Content:</strong> Information you submit through the application, such as messages, files, and other content.</li>
-                <li><strong>Profile Information:</strong> Any information you choose to include in your profile.</li>
-            </ul>
-            
-            <h3>2.2 Information Collected Automatically</h3>
-            <div class="data-types">
-                <div class="data-type-item">
-                    <h4>Usage Data</h4>
-                    <p>Information about how you interact with the application, including features used and time spent.</p>
-                </div>
-                <div class="data-type-item">
-                    <h4>Device Information</h4>
-                    <p>Device type, operating system, browser type, and unique device identifiers.</p>
-                </div>
-                <div class="data-type-item">
-                    <h4>Connection Data</h4>
-                    <p>IP address, network information, and P2P connection details necessary for peer discovery.</p>
-                </div>
-                <div class="data-type-item">
-                    <h4>Log Data</h4>
-                    <p>Standard server or connection logs that may include timestamps and connection status.</p>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2>3. How We Use Your Information</h2>
-            <p>We use the collected information for the following purposes:</p>
-            <ul>
-                <li>To provide, maintain, and improve our P2P communication services</li>
-                <li>To enable peer discovery and establish direct connections between users</li>
-                <li>To process and complete transactions, if applicable</li>
-                <li>To send you technical notices, updates, security alerts, and support messages</li>
-                <li>To respond to your comments, questions, and customer service requests</li>
-                <li>To monitor and analyze trends, usage, and activities in connection with our application</li>
-                <li>To detect, investigate, and prevent fraudulent transactions and other illegal activities</li>
+                <li><strong>Connection Metadata:</strong> IP addresses and network identifiers required for peer discovery and DHT (Distributed Hash Table) operations.</li>
+                <li><strong>Device Information:</strong> Operating system and browser type to optimize the application performance for your device.</li>
+                <li><strong>Local Storage:</strong> We use local storage on your device to save your settings and application state. Most of your user-generated content resides only on your device or the devices you specifically share it with.</li>
             </ul>
         </section>
 
         <section>
             <h2>4. How We Share Your Information</h2>
-            <p>We do not sell your personal information. We may share your information in the following circumstances:</p>
-            
-            <h3>4.1 Peer-to-Peer Connections</h3>
-            <p>When you connect with other users through our P2P network, certain information (such as your public identifier) may be shared to facilitate the connection. This is inherent to how P2P networks function.</p>
-            
-            <h3>4.2 Service Providers</h3>
-            <p>We may share your information with third-party service providers who perform services on our behalf, such as hosting, analytics, and customer support.</p>
-            
-            <h3>4.3 Legal Requirements</h3>
-            <p>We may disclose your information if required to do so by law or in response to valid requests by public authorities.</p>
-            
-            <h3>4.4 Business Transfers</h3>
-            <p>If we are involved in a merger, acquisition, or sale of assets, your information may be transferred as part of that transaction.</p>
-        </section>
-
-        <section>
-            <h2>5. Data Security</h2>
-            <p>We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the Internet or electronic storage is 100% secure.</p>
-            
-            <div class="highlight-box">
-                <p><strong>Note:</strong> In a P2P network, communications are direct between peers. While we implement end-to-end encryption for messages where applicable, we cannot guarantee the security of data once it has been shared with other users.</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>6. Data Retention</h2>
-            <p>We retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy. Some information may be retained longer if required by law or for legitimate business purposes.</p>
-        </section>
-
-        <section>
-            <h2>7. Your Rights</h2>
-            <p>Depending on your location, you may have certain rights regarding your personal information:</p>
+            <p>Peeroid is built on a decentralization model:</p>
             <ul>
-                <li><strong>Access:</strong> You can request a copy of the personal information we hold about you.</li>
-                <li><strong>Correction:</strong> You can request correction of inaccurate or incomplete personal information.</li>
-                <li><strong>Deletion:</strong> You can request deletion of your personal information.</li>
-                <li><strong>Portability:</strong> You can request a copy of your data in a machine-readable format.</li>
-                <li><strong>Objection:</strong> You can object to the processing of your personal information.</li>
+                <li><strong>Peer Privacy:</strong> Your data is shared directly with the peers you choose to communicate with. We do not act as an intermediary for your private messages.</li>
+                <li><strong>Public Identifiers:</strong> Your Libp2p Peer ID and any public profile information you set are visible to other peers in the Network to facilitate discovery.</li>
+                <li><strong>No Data Selling:</strong> We never sell, rent, or trade your personal information to third parties.</li>
             </ul>
-            <p>To exercise these rights, please contact us using the information provided below.</p>
         </section>
 
         <section>
-            <h2>8. Children's Privacy</h2>
-            <p>Our application is not intended for use by individuals under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have collected information from a child under 13, please contact us immediately.</p>
+            <h2>5. Data Retention and Deletion</h2>
+            <p>Since Peeroid is a client-side P2P application, you have direct control over your data. Most data can be deleted by clearing your browser's local storage or application database. You can un-link your Google Account at any time through the application settings to revoke our access to your Google data.</p>
         </section>
 
         <section>
-            <h2>9. International Data Transfers</h2>
-            <p>Your information may be transferred to and processed in countries other than your country of residence. These countries may have data protection laws that are different from the laws of your country.</p>
+            <h2>6. Changes to This Privacy Policy</h2>
+            <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top of this document.</p>
         </section>
 
         <section>
-            <h2>10. Changes to This Privacy Policy</h2>
-            <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top of this Privacy Policy.</p>
-        </section>
-
-        <section>
-            <h2>11. Contact Us</h2>
-            <p>If you have any questions about this Privacy Policy or our privacy practices, please contact us:</p>
+            <h2>7. Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us:</p>
             <ul>
-                <li>By visiting our website: https://www.peeroid.net</li>
+                <li>By visiting our website: <a href="https://www.peeroid.net" target="_blank">https://www.peeroid.net</a></li>
             </ul>
         </section>
 
         <footer>
-            <p>&copy; 2026 Peeroid.net All rights reserved.</p>
-            <p>This Privacy Policy is effective as of February 11, 2026.</p>
+            <p>&copy; 2026 Peeroid Network. All rights reserved.</p>
+            <p>Hosted at: <a href="https://www.peeroid.net/privacy_policy.html">https://www.peeroid.net/privacy_policy.html</a></p>
         </footer>
     </div>
 </body>
